@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+}
+
+.container {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#heading {
+    background-color: rgb(78, 29, 29);
+    border: 2px solid rgb(78, 29, 29);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin: 0px;
+}
+
+#headcalc {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-family: monospace;
+    padding-left: 12px;
+}
+
+#calcbutton {
+    background-color: rgb(116, 40, 40);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 110px;
+}
+
+#ratings {
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+#tipamount {
+    text-align: center;
+    font-size: 25px;
+}
