@@ -13,10 +13,10 @@
         </div>
         <form>
             <p>Total bill amount: </p>
-            <p>$ <input type="text" id="amount"></p>
+            <p>$ <input type="text" id="amount" placeholder="Amount"></p>
             <p>How would you rate the service?</p>
             <select id="ratings">
-                <option value="select disable"></option>
+                <option disabled selected value="0">-- Choose an option --</option>
                 <option value="0.3">30% outstanding</option>
                 <option value="0.2">20% very good</option>
                 <option value="0.1">10% it's okay</option>
@@ -24,7 +24,7 @@
                 <option value="0.03">3% terrible</option>
             </select>
             <p>Split the bill between how many people?</p>
-            <p><input type="text" id="people"> people</p>
+            <p><input type="text" id="people" placeholder="Number of People"> people</p>
             <br>
             <button type="button" id="calcbutton" onclick="calculateTip()">Calculate</button>
             <p id="tipamount"></p>
